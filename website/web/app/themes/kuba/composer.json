@@ -1,0 +1,14 @@
+{
+    "name": "kodefix/kuba",
+    "autoload": {
+        "psr-4": {
+            "Kodefix\\Kuba\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kodefix"
+        }
+    ],
+    "require": {}
+}

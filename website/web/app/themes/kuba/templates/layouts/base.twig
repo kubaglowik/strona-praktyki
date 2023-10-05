@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ site.language }}" ontouchmove>
+  <head>
+    <meta charset="{{ site.charset }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{function('wp_title')}}</title>
+    <script>document.documentElement.classList.remove('no-js');</script>
+    <link rel="pingback" href="{{site.pingback_url}}" />
+    {% block head %}
+      {{function('wp_head')}}
+    {% endblock %}
+  </head>
+  <body class="{{ body_class }}" onclick>
+    {% block navbar %}
+      {% include 'partials/navbar.twig' %}
+    {% endblock %}
+
+    {% block content %}
+      Sorry, no content available.
+    {% endblock %}
+
+    {% block footer %}
+      {% include 'partials/footer.twig' %}
+    {% endblock %}
+    {{ function('wp_footer') }}
+  </body>
+</html>
