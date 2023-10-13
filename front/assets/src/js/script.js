@@ -11,7 +11,7 @@ import '../sass/layout.scss';
  * Add here your JavasScript code
  */
 
-  var i = 0;
+  let i = 0;
   var images = [];
   var time = 1000;
 
