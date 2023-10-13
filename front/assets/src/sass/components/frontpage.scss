@@ -1,12 +1,12 @@
-main{
-display: flex;
-justify-content: center;
+main {
+  display: flex;
+  justify-content: center;
 }
-.sl{
+.sl {
   width: 80%;
   height: 300px;
 }
-.right{
+.right {
   padding: 30px;
   color: #333;
   float: right;
@@ -14,59 +14,69 @@ justify-content: center;
   height: 350px;
   width: 40%;
 }
-.left{
+.left {
   padding: 30px;
   background-color: rgba(255, 183, 0, 0.04);
   float: left;
   height: 350px;
   width: 60%;
 }
-#smile,#pack,#place,#laptop{
-
+#smile,
+#pack,
+#place,
+#laptop {
   width: 70px;
   height: 30px;
-  padding-right:30px ;
+  padding-right: 30px;
   border-right: 1px solid #333;
-  
 }
-#tt,#title{
-  font-family: "Montserrat",sans-serif !important;
+#tt,
+#title {
+  font-family: 'Montserrat', sans-serif !important;
   font-weight: 500;
   font-size: 30px;
- padding-left: 30px;
-}
-
-#zado,#text{
-  font-family: "Montserrat",sans-serif !important;
   padding-left: 30px;
 }
 
-.first,.two,.three,.four{
+#zado,
+#text {
+  font-family: 'Montserrat', sans-serif !important;
+  padding-left: 30px;
+}
+
+.first,
+.two,
+.three,
+.four {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 50%;
-  padding-right:30px;
+  padding-right: 30px;
 }
-.all_blocks{
+.all_blocks {
   display: flex;
-  
+
   align-items: center;
   float: left;
 }
-#a,#b,#c{
+#a,
+#b,
+#c {
   width: 100px;
 }
-.links{
+.links {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin: 60px;
 }
-p{
+p {
   display: flex;
   justify-content: center;
 }
-#link1,#link2,#link3{
-  font-family: "Montserrat",sans-serif !important;
+#link1,
+#link2,
+#link3 {
+  font-family: 'Montserrat', sans-serif !important;
   padding-top: 10px;
 }
