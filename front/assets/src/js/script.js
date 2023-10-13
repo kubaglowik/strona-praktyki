@@ -12,10 +12,10 @@ import '../sass/layout.scss';
  */
 
   let i = 0;
-  var images = [];
-  var time = 1000;
+  let images = [];
+  let time = 1000;
 
-  var url = window.location.href;
+  let url = window.location.href;
 
   images[0] = url + 'app/themes/kuba/dist/images/a.jpg';
   images[1] = url + 'app/themes/kuba/dist/images/b.jpg';
