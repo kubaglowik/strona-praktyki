@@ -3,21 +3,19 @@ nav {
   height: 80px;
   background-color: rgb(67, 160, 226);
   color: white;
-  font-family: "Montserrat",sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-ul{
+.navbar {
   display: flex;
   gap: 30px;
-  justify-content:center;
-
-  
+  justify-content: center;
 }
-#image{
+#image {
   height: 50px;
-  border-radius: 100%; 
-  padding:0px 30px 0px 30px;
+  border-radius: 100%;
+  padding: 0px 30px 0px 30px;
 }
