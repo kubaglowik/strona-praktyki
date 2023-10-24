@@ -18,10 +18,11 @@ const LIB_DIR = path.resolve( __dirname, 'src/library' );
 const BUILD_DIR = path.resolve( __dirname, 'build' );
 
 const entry = {
-	main: JS_DIR + 'js/main.js',
-	single: JS_DIR + 'js/single.js',
-	editor: JS_DIR + 'js/editor.js',
+	main: JS_DIR + '/js/main.js',
+	single: JS_DIR + '/js/single.js',
+	editor: JS_DIR + '/js/editor.js',
 };
+
 
 const output = {
 	path: BUILD_DIR,
