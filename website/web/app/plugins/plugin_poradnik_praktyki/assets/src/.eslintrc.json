@@ -77,8 +77,17 @@
       "always"
     ],
     "no-undefined": "error",
-    "comma-spacing": ["error",{"before":false,"after":true}],
-    "lines-between-class-members":["error","always"],
+    "comma-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "lines-between-class-members": [
+      "error",
+      "always"
+    ],
     "arrow-spacing": "error",
     "jsdoc/check-alignment": 1,
     "jsdoc/check-param-names": 1,
@@ -97,22 +106,25 @@
     "jsdoc/require-returns-type": 1,
     "jsdoc/valid-types": 1,
     "no-mixed-spaces-and-tabs": "off",
-    "require-jsdoc": ["error", {
-    "require": {
-      "functionDeclaration": true,
-      "MethodDefinition": true,
-      "ClassDeclaration": true,
-      "ArrowFunctionExpression": true,
-      "FunctionExpression": true
+    "require-jsdoc": [
+      "error",
+      {
+        "require": {
+          "functionDeclaration": true,
+          "MethodDefinition": true,
+          "ClassDeclaration": true,
+          "ArrowFunctionExpression": true,
+          "FunctionExpression": true
+        }
+      }
+    ]
+  },
+  "settings": {
+    "jsdoc": {
+      "tagNamePreference": {
+        "param": "param",
+        "returns": "return"
+      }
     }
-  }]
-},
-"settings": {
-"jsdoc": {
-  "tagNamePreference": {
-    "param": "param",
-    "returns": "return"
   }
-}
-}
 }
