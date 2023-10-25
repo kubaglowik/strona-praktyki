@@ -45,7 +45,7 @@ class Patterns {
 			register_block_pattern(
 				'aquila-features/two-columns',
 				[
-					'title'       => __( 'Aquila Features Two Column', 'aquila-features' ),
+					'title'       => __( 'plugin_praktyki dwie kolumny', 'aquila-features' ),
 					'description' => __( 'Aquila Two Column Patterns', 'aquila-features' ),
 					'categories'  => [ 'aquila-columns' ],
 					'content'     => $two_columns_content,
@@ -60,7 +60,7 @@ class Patterns {
 	public function register_block_pattern_categories() {
 
 		$pattern_categories = [
-			'aquila-columns' => __( 'Aquila Features Columns', 'aquila-features' ),
+			'aquila-columns' => __( 'plugin_praktyki', 'aquila-features' ),
 		];
 
 		if ( ! empty( $pattern_categories ) ) {
