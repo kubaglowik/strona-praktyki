@@ -1,0 +1,3 @@
+/*! For license information please see editor.js.LICENSE.txt */
+!function(){"use strict";var e={"./sass/main.scss":function(e,r,t){t.r(r)}},r={};function t(o){var n=r[o];if(void 0!==n)return n.exports;var s=r[o]={exports:{}};return e[o](s,s.exports,t),s.exports}t.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};var o={};!function(){t.r(o);t("./sass/main.scss");alert("editor js")}()}();
+//# sourceMappingURL=editor.js.map

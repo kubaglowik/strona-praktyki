@@ -1,0 +1,1 @@
+{"version":3,"file":"css/editor.css","mappings":";;6GAAA,KACE,sBACF","sources":["webpack://poradnik_praktyki/./sass/main.scss"],"sourcesContent":["body {\n  background-color: green;\n}"],"names":[],"sourceRoot":""}

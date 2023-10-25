@@ -16,7 +16,9 @@ export function slider() {
     } else {
       i = 0;
     }
-    setTimeout("changeImg", time);
   }
-  window.onload = changeImg;
+  
+  window.addEventListener("load", function () {
+    setTimeout(changeImg(), time);
+  });
 }
