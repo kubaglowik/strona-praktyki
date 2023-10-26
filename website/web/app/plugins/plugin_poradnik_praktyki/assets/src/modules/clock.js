@@ -1,11 +1,8 @@
 class Clock {
 	constructor() {
-			this.initializeClock();
+		let t = setInterval(() => this.time(), 1000);
 	}
 
-	initializeClock() {
-			let t = setInterval(() => this.time(), 1000);
-	}
 
 	numPad(str) {
 			let cStr = str.toString();
