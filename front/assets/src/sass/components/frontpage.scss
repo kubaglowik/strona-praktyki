@@ -45,14 +45,23 @@ main {
 
 .block {
   width: 50%;
-  padding-right: 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
 }
+
 .all_blocks {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding-left: 5%;
+  height: 100%;
+  margin: 5% auto;
 }
 .right-menu {
   width: 300px;
