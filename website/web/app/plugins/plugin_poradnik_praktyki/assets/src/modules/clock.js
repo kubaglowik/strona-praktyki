@@ -36,4 +36,4 @@ class Clock {
 	}
 }
 
-new Clock();
+// new Clock();
