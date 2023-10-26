@@ -79,11 +79,7 @@ p {
   font-family: 'Montserrat', sans-serif !important;
   padding-top: 10px;
 }
-.next{
-  font-family: 'Montserrat', sans-serif !important;
-  margin: 15px;
-   padding: 5px;
-}
+
 .prev{
   font-family: 'Montserrat', sans-serif !important;
   margin: 15px;
@@ -91,4 +87,8 @@ p {
 }
 .tplace{
   margin: 5%;
+}
+.arrow{
+  width: 50px;
+  margin: 10px;
 }
