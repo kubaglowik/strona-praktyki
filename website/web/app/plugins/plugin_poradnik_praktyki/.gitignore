@@ -2,7 +2,7 @@ vendor
 node_modules
 build
 dist
-/**/vendor
+**/vendor
 /**/node_modules
 /**/build
 /**/dist
