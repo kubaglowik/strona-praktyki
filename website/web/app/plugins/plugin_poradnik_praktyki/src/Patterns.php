@@ -26,8 +26,8 @@ class Patterns {
 		/**
 		 * Actions.
 		 */
-		add_action( 'init', [ $this, 'register_block_patterns' ] );
-		add_action( 'init', [ $this, 'register_block_pattern_categories' ] );
+		add_action( 'init', array( $this, 'register_block_patterns' ) );
+		add_action( 'init', array( $this, 'register_block_pattern_categories' ) );
 	}
 
 	/**
@@ -44,12 +44,12 @@ class Patterns {
 			 */
 			register_block_pattern(
 				'aquila-features/two-columns',
-				[
+				array(
 					'title'       => __( 'plugin_praktyki dwie kolumny', 'aquila-features' ),
 					'description' => __( 'Aquila Two Column Patterns', 'aquila-features' ),
-					'categories'  => [ 'aquila-columns' ],
+					'categories'  => array( 'aquila-columns' ),
 					'content'     => $two_columns_content,
-				]
+				)
 			);
 		}
 	}
@@ -59,15 +59,15 @@ class Patterns {
 	 */
 	public function register_block_pattern_categories() {
 
-		$pattern_categories = [
+		$pattern_categories = array(
 			'aquila-columns' => __( 'plugin_praktyki', 'aquila-features' ),
-		];
+		);
 
 		if ( ! empty( $pattern_categories ) ) {
 			foreach ( $pattern_categories as $pattern_category => $pattern_category_label ) {
 				register_block_pattern_category(
 					$pattern_category,
-					[ 'label' => $pattern_category_label ]
+					array( 'label' => $pattern_category_label )
 				);
 			}
 		}
