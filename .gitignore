@@ -4,3 +4,4 @@ preview
 /wp-content/languages
 /website/web/app/themes/**/dist
 vendor
+/vendor
