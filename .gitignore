@@ -3,3 +3,6 @@ node_modules
 preview
 /wp-content/languages
 /website/web/app/themes/**/dist
+vendor
+/vendor
+website/web/app/plugins/plugin_poradnik_praktyki/assets/src/inc/custom-functions.php

@@ -1,0 +1,15 @@
+{
+    "name": "user/strona-praktyki",
+    "autoload": {
+        "psr-4": {
+            "User\\StronaPraktyki\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kubaglowik",
+            "email": "jakubgo45@gmail.com"
+        }
+    ],
+    "require": {}
+}
