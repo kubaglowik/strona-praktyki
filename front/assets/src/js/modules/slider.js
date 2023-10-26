@@ -19,20 +19,28 @@ export function slider() {
 
   function prevSlide() {
     currentSlide--;
-    changeImg()
+    if (currentSlide < 0) {
+      currentSlide = images.length - 1;
+    }
+    changeImg();
+    console.log(currentSlide);
   }
 
   function nextSlide() {
     currentSlide++;
     changeImg()
+    console.log(currentSlide)
   }
 
   function changeImg() {
-    if (currentSlide > 0 && currentSlide < images.length) {
+    if (currentSlide >= 0 && currentSlide < images.length) {
       document.slide.src = images[currentSlide];
-    }
-    else {
+    } else if (currentSlide < 0) {
+      currentSlide = images.length - 1;
+      document.slide.src = images[currentSlide];
+    } else {
       currentSlide = 0;
+      document.slide.src = images[currentSlide];
     }
   }
 
