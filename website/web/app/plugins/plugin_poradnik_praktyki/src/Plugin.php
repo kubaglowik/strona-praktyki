@@ -27,11 +27,11 @@ class Plugin {
 	 * Initialize plugin
 	 */
 	private function init() {
-		define( 'AQUILA_FEATURES_PLUGIN_PATH', untrailingslashit( plugin_dir_path( __DIR__ ) ) );
-		define( 'AQUILA_FEATURES_PLUGIN_URL', untrailingslashit( plugin_dir_url( __DIR__ ) ) );
-		define( 'AQUILA_FEATURES_PLUGIN_BUILD_PATH', AQUILA_FEATURES_PLUGIN_PATH . '/assets/src/build' );
-		define( 'AQUILA_FEATURES_PLUGIN_BUILD_URL', AQUILA_FEATURES_PLUGIN_URL . '/assets/src/build' );
-		define( 'AQUILA_FEATURES_PLUGIN_VERSION', '1.0.0' );
+		define( 'plugin_praktyki_plugin_path', untrailingslashit( plugin_dir_path( __DIR__ ) ) );
+		define( 'plugin_praktyki_plugin_url', untrailingslashit( plugin_dir_url( __DIR__ ) ) );
+		define( 'plugin_praktyki_plugin_url_path', plugin_praktyki_plugin_path . '/assets/src/build' );
+		define( 'plugin_praktyki_build_url', plugin_praktyki_plugin_url . '/assets/src/build' );
+		define( 'plugin_praktyki_plugin_version', '1.0.0' );
 
 		new Assets();
 		new Patterns();

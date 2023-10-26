@@ -35,7 +35,7 @@ class Assets {
 	 */
 	public function enqueue_editor_assets() {
 
-		$asset_config_file = sprintf( '%s/Assets.php', AQUILA_FEATURES_PLUGIN_BUILD_PATH );
+		$asset_config_file = sprintf( '%s/Assets.php', plugin_praktyki_plugin_url_path );
 
 		if ( ! file_exists( $asset_config_file ) ) {
 			return;
@@ -55,7 +55,7 @@ class Assets {
 		if ( is_admin() ) {
 			wp_enqueue_script(
 				'af-blocks-js',
-				AQUILA_FEATURES_PLUGIN_BUILD_URL . '/js/editor.js',
+				plugin_praktyki_build_url . '/js/editor.js',
 				$js_dependencies,
 				$version,
 				true
@@ -70,9 +70,9 @@ class Assets {
 
 		wp_enqueue_style(
 			'af-blocks-css',
-			AQUILA_FEATURES_PLUGIN_BUILD_URL . '/css/editor.css',
+			plugin_praktyki_build_url . '/css/editor.css',
 			$css_dependencies,
-			filemtime( AQUILA_FEATURES_PLUGIN_BUILD_PATH . '/css/editor.css' ),
+			filemtime( plugin_praktyki_plugin_url_path . '/css/editor.css' ),
 			'all'
 		);
 	}

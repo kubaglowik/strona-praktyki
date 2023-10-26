@@ -16,7 +16,7 @@
  */
 function aquila_features_get_template( string $template, array $variables = array(), bool $echo = false ) {
 
-	$template_file = sprintf( '%1$s/templates/%2$s.php', AQUILA_FEATURES_PLUGIN_PATH, $template );
+	$template_file = sprintf( '%1$s/templates/%2$s.php', plugin_praktyki_plugin_path, $template );
 
 	if ( ! file_exists( $template_file ) ) {
 		return '';
