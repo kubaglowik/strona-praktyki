@@ -29,14 +29,13 @@
 namespace poradnik_praktyki;
 
 require_once 'vendor/autoload.php';
-require_once untrailingslashit( plugin_dir_path( __FILE__ ) ) . '/assets/src/inc/custom-functions.php';
+require_once untrailingslashit( plugin_dir_path( __FILE__ ) ) . '/inc/custom-functions.php';
 
 use poradnik_praktyki\Plugin;
 
 if ( class_exists( 'poradnik_praktyki\Plugin' ) ) {
 	$the_plugin = new Plugin();
 }
-
 register_activation_hook( __FILE__, array( $the_plugin, 'activate' ) );
 
 register_deactivation_hook( __FILE__, array( $the_plugin, 'deactivate' ) );
