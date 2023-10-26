@@ -1,0 +1,75 @@
+main{
+display: flex;
+justify-content: center;
+}
+.sl{
+  width: 80%;
+  height: 300px;
+}
+.right{
+  padding: 30px;
+  color: #333;
+  float: right;
+  background: #fbfbfb;
+  height: 350px;
+  width: 40%;
+}
+.left{
+  padding: 30px;
+  background-color: rgba(255, 183, 0, 0.04);
+  float: left;
+  height: 350px;
+  width: 60%;
+}
+#smile,#pack,#place,#laptop{
+
+  width: 70px;
+  height: 30px;
+  padding-right:30px ;
+  border-right: 1px solid #333;
+  
+}
+#tt,#title{
+  font-family: "Montserrat",sans-serif !important;
+  font-weight: 500;
+  font-size: 30px;
+ padding-left: 30px;
+}
+
+#zado,#text,#example{
+  font-family: "Montserrat",sans-serif !important;
+  padding-left: 30px;
+}
+
+.first,.two,.three,.four{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding-right:30px;
+}
+.all_blocks{
+  display: flex;
+  
+  align-items: center;
+  float: left;
+}
+#a,#b,#c{
+  width: 150px;
+}
+.links{
+  display: flex;
+  justify-content:space-between;
+  margin: 60px;
+}
+p{
+  display: flex;
+  justify-content: center;
+}
+#link1,#link2,#link3{
+  font-family: "Montserrat",sans-serif !important;
+  padding-top: 10px;
+}
+#title{
+  padding-top: 40px;
+}
