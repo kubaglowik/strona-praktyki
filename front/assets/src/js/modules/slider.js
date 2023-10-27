@@ -3,9 +3,9 @@ export function slider() {
   let images = [];
   // let time = 1000;
   let url = window.location.href;
-  images[0] = url + 'app/themes/kuba/dist/images/a.jpg';
-  images[1] = url + 'app/themes/kuba/dist/images/b.jpg';
-  images[2] = url + 'app/themes/kuba/dist/images/c.jpg';
+  images[0] = url + 'app/themes/kuba/dist/images/d.jpg';
+  images[1] = url + 'app/themes/kuba/dist/images/e.jpg';
+  images[2] = url + 'app/themes/kuba/dist/images/f.jpg';
 
 
   let currentSlide = 0;

@@ -5,57 +5,50 @@
 	<div class="front-page">
 		<div class="page-content">
 			<main>
-				<button class="prev"><img class="arrow" src="app/themes/kuba/dist/images/ra.png" alt="arrow"></button>
-				<img name="slide" id="slider">
-				<button class="next"><img class="arrow" src="app/themes/kuba/dist/images/la.png" alt="arrow"></button>
+				<div class="allblocks">
+					<button class="prev"><img class="arrow" src="app/themes/kuba/dist/images/ra.png" alt="left-arrow"></button>
+					<img name="slide" id="slider">
+					<button class="next"><img class="arrow" src="app/themes/kuba/dist/images/la.png" alt="right-arrow"></button>
+				</div>
+				<div class="tech">
+					<img class="ico" src="app/themes/kuba/dist/images/html.png" alt="html">
+					<img class="ico" src="app/themes/kuba/dist/images/css.png" alt="">
+					<img class="ico" src="app/themes/kuba/dist/images/tailwind.png" alt="">
+				</div>
+				<div class="title">
+					<p>latest projects</p>
+				</div>
+				<div class="latest-projects">
+					<div class="ex"></div>
+					<div class="ex"></div>
+					<div class="ex"></div>
+				</div>
+				<div class="title">
+					<p>Contact me</p>
+				</div>
+				<div class="all-contacts">
+					<div class="contact-me-block">
+						<form action="">
+							<p>Name</p>
+							<input type="text" name="name" id="name" class="title">
+							<p class="formtitle">e-mail</p>
+							<input type="email" name="mail" id="name" class="title">
+							<p>Message</p>
+							<input type="text" name="" id="name-lg" class="title">
+							<input type="submit" value="send" class="button-send">
+						</form>
+					</div>
+					<p class="titleor">or..</p>
+					<div class"socials-block">
+						<div class="social">
+							<img id="socialimg" src="app/themes/kuba/dist/images/ig.png" alt="instagram">
+
+						</div>
+						<div class="social">
+							<img id="socialimg" src="app/themes/kuba/dist/images/fb.png" alt="facebook">
+						</div>
+					</div>
+				</div>
 			</main>
-			<div class="left-side-page">
-				<div class="left_item">
-					<div class="all_blocks">
-						<img src="app/themes/kuba/dist/images/person.png" class="image">
-						<div class="block">
-							<span class="title">0</span>
-							<span class="text">zadowolonych klientów</span>
-						</div>
-						<img src="app/themes/kuba/dist/images/cart.png" class="image">
-						<div class="block">
-							<span class="title">0</span>
-							<span class="text">zamówień dziennie</span>
-						</div>
-						<img src="app/themes/kuba/dist/images/place.png" class="image">
-						<div class="block">
-							<span class="title">0</span>
-							<span class="text">lokali i przedsiębiorstw</span>
-						</div>
-						<img src="app/themes/kuba/dist/images/comp.png" class="image">
-						<div class="block">
-							<span class="title">0</span>
-							<span class="text">wykonanych usług</span>
-						</div>
-					</div>
-				</div>
-				<div class="tplace">
-					<p class="title">Usługi programisty webowego to projektowanie</p>
-					<BR>
-					<h2 class="text">tworzenie i utrzymanie stron internetowych oraz aplikacji. Programiści dbają o wydajność, bezpieczeństwo i dostosowanie do potrzeb klienta.</h2>
-				</div>
-			</div>
-			<div class="right-side-page">
-				<div class="links">
-					<div class="block">
-						<a href=""><img src="app/themes/kuba/dist/images/1.png" class="right-menu"></a>
-						<p class="link">Strony internetowe</p>
-					</div>
-					<div class="block">
-						<a href=""><img src="app/themes/kuba/dist/images/2.png" class="right-menu"></a>
-						<p class="link">Aplikacje</p>
-					</div>
-					<div class="block">
-						<a href=""><img src="app/themes/kuba/dist/images/3.png" class="right-menu"></a>
-						<p class="link">Design</p>
-					</div>
-				</div>
-			</div>
 		</div>
-	</div>
-{% endblock %}
+	{% endblock %}

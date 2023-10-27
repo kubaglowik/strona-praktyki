@@ -1,21 +1,124 @@
 nav {
-  width: 100%;
-  height: 80px;
-  background-color: rgb(0,43, 200, 1);
-  color: white;
+  margin-bottom: 5%;
+}
+.name {
   font-family: 'Montserrat', sans-serif !important;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(245, 245, 245);
+  top: 0;
+  box-shadow: 4px 0px 10px #6b6b6b;
+}
+.nametext,
+h1 {
+  font-family: 'Montserrat', sans-serif !important;
+  color: #333;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: 10%;
+}
+/* Typewriter effect 1 */
+@keyframes typing {
+  0.0000%,
+  27.3488%,
+  100% {
+    content: '';
+  }
+  1.1395%,
+  26.2093% {
+    content: '@';
+  }
+  2.2791%,
+  25.0698% {
+    content: '@k';
+  }
+  3.4186%,
+  23.9302% {
+    content: '@ku';
+  }
+  4.5581%,
+  22.7907% {
+    content: '@kub';
+  }
+  5.6977%,
+  21.6512% {
+    content: '@kuba';
+  }
+  6.8372%,
+  20.5116% {
+    content: '@kubag';
+  }
+  7.9767%,
+  19.3721% {
+    content: '@kubagl';
+  }
+  9.1163%,
+  18.2326% {
+    content: '@kubaglo';
+  }
+  10.2558%,
+  17.0930% {
+    content: '@kubaglow';
+  }
+  11.7674%,
+  16.2791% {
+    content: '@kubaglowi';
+  }
+  12.7674%,
+  15.2791% {
+    content: '@kubaglowik';
+  }
 }
 
-.navbar {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
-#image {
-  height: 50px;
-  border-radius: 100%;
-  padding: 0px 30px 0px 30px;
+
+.typewriter {
+  --caret: currentcolor;
+}
+
+.typewriter::before {
+  content: '';
+  animation: typing 18s infinite;
+}
+
+.typewriter::after {
+  content: '';
+  border-right: 1px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}
+
+.typewriter.thick::after {
+  border-right: 1ch solid var(--caret);
+}
+
+.typewriter.nocaret::after {
+  border-right: 0;
+}
+
+@media (prefers-reduced-motion) {
+  .typewriter::after {
+    animation: none;
+  }
+
+  @keyframes sequencePopup {
+    100% {
+      content: 'kubaglowik';
+    }
+  }
+
+  .typewriter::before {
+    content: 'developer';
+    animation: sequencePopup 12s linear infinite;
+  }
 }
